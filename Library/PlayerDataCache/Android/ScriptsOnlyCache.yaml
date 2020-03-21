@@ -1,7 +1,13 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ONSPSettings
     - Oculus.Platform.PlatformSettings
+    - OvrAvatar
+    - OvrAvatarLocalDriver
+    - OvrAvatarSettings
+    Oculus.VR.Editor.dll:
+    - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRDebugInfo
@@ -53,17 +59,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11500}
     - Class: 114
+      Script: {instanceID: 11826}
+    - Class: 114
+      Script: {instanceID: 12044}
+    - Class: 114
+      Script: {instanceID: 12086}
+    - Class: 114
       Script: {instanceID: 12280}
     - Class: 114
       Script: {instanceID: 12428}
     - Class: 114
-      Script: {instanceID: 12540}
+      Script: {instanceID: 12530}
     - Class: 114
-      Script: {instanceID: 13010}
+      Script: {instanceID: 12542}
     - Class: 114
-      Script: {instanceID: 13104}
+      Script: {instanceID: 13012}
     - Class: 114
-      Script: {instanceID: 19198}
+      Script: {instanceID: 13060}
+    - Class: 114
+      Script: {instanceID: 13106}
+    - Class: 114
+      Script: {instanceID: 13496}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -781,6 +797,12 @@ ScriptsOnlyBuild:
     className: P2PNetworkBall
   - hash:
       serializedVersion: 2
+      Hash: c51d2a1569bb404a12e837742887b609
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRGOController
+  - hash:
+      serializedVersion: 2
       Hash: 22dc216204f0e65ce2161bd7b6ecf06b
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -1345,6 +1367,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: b00ce1f32326f1cd1160488ffd14965a
+    assemblyName: Oculus.VR.Editor.dll
+    namespaceName: 
+    className: OVRConfig
+  - hash:
+      serializedVersion: 2
       Hash: 8b9f42d72019bde2f9fe0667762eaff3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1625,13 +1653,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: c51d2a1569bb404a12e837742887b609
-    assemblyName: Oculus.VR.dll
-    namespaceName: 
-    className: OVRGOController
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/dacena/RemoteDesktopGo/RemoteDesktopGo.apk
+  playerPath: C:/Users/dacena/RemoteDesktopGo/Build/RemoteDesktopGo.apk
